@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "user can search any product",
+        "description": "",
+        "id": "this-feature-will-cover-home-page;user-can-search-any-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 333459800,
+              "error_message": "java.lang.NullPointerException\r\n\tat UtilityAmazonPkg.BaseClass.lunchURL(BaseClass.java:49)\r\n\tat StefdeffAmazonPkg.StepdeffClass.launch_application(StepdeffClass.java:11)\r\n\tat ✽.Given launch application \u003c\"URL\"\u003e(amazon.feature:3)\r\n",
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "launch application \u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 21
+                }
+              ],
+              "location": "StepdeffClass.launch_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "enter laptop on search feild",
+            "match": {
+              "location": "StepdeffClass.enter_laptop_on_search_feild()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "click search button",
+            "match": {
+              "location": "StepdeffClass.click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user able to search any product",
+            "match": {
+              "location": "StepdeffClass.user_able_to_search_any_product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "this feature will cover home page",
+    "description": "",
+    "id": "this-feature-will-cover-home-page",
+    "keyword": "Feature",
+    "uri": "amazon.feature"
+  }
+]
